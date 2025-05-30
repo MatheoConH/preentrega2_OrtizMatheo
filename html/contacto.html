@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/estilos/style.css" />
+    
+    <title>Contacto - El Lobby</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">El Lobby</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html" >Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/analisis.html">Analisis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/contacto.html">Contacto</a></li>
+               </ul>
+           </div>
+          </div>
+       </nav>
+    </header>
+
+    <main class="contactoMain">
+      <h1>Contacto</h1>
+      <p>
+        ¿Tenés alguna duda, sugerencia o querés colaborar con nosotros? Completá
+        el formulario y te responderemos a la brevedad.
+      </p>
+
+      <form action="#" method="post" class="formularioContacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <section class="infoExtraContacto">
+        <h2>También podés encontrarnos en:</h2>
+        <ul>
+          <li>Email: contacto@ellobbygamer.com</li>
+          <li>Instagram: @ellobbygamer</li>
+          <li>Teléfono: +54 11 1234-5479</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+        <p>© 2025 El Lobby. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
