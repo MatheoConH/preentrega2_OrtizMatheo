@@ -40,7 +40,7 @@ p {
 
 /*  ESTILOS HEADER  */
 .encabezadoPrincipal {
-    display: flex;
+    display: flex;             /*  Uso del FLEX */
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
@@ -96,9 +96,10 @@ nav ul li {
     margin: 20px auto;
 }
 
+
 .compañiasGrid {
     list-style: none;
-    display: flex;
+    display: flex;        /*  Uso del FLEX */
     flex-wrap: wrap;
     justify-content: left;
     gap: 20px;
@@ -153,7 +154,7 @@ nav ul li {
 }
 
 .imagenesMain {
-    display: flex;
+    display: flex;             /*  Uso del FLEX */
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -168,7 +169,7 @@ nav ul li {
 }
 
 .galeria-imagenes {
-    display: grid;
+    display: grid;                /*  Uso del GRID  */
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
@@ -282,7 +283,7 @@ nav ul li {
     padding-bottom: calc(600 / 900 * 100%);
     height: 0;
     overflow: hidden;
-    margin-bottom: 20px; /* Espacio entre videos */
+    margin-bottom: 20px; 
 }
 
 .videosMain iframe {
@@ -294,15 +295,16 @@ nav ul li {
 }
 
 /*  ESTILOS PAGINA ANALISIS  */
+
 .contenedor-analisis {
-    display: grid;
+    display: grid;                    /*  Uso del GRID  */
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 20px;
 }
 
 .analisisItem {
-    display: flex;
+    display: flex;                 /*  uso del FLEX  */
     background-color: #1e1e1e;
     color: white;
     border: 2px solid #444;
@@ -362,6 +364,8 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Uso del Margin y Padding */
 
 footer p {
     font-size: 0.9rem;
