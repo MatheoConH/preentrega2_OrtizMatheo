@@ -11,22 +11,20 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- USO DEL BOOTSTRAP -->
 
-    <!-- <link rel="stylesheet" href="/preentrega2_OrtizMatheo/estilos/style.css"> RUTA PARA GITHUB PAGES (SEGUN CHATGPT)--> 
+    
 
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
 
     <title>El Lobby</title>
 
 </head>
 
-
 <body>
  
-
     <header class="encabezadoPrincipal">
 
-        <img class="logo" src="./imagenes/logo.png" alt="logo" width="400">
-        <div>
+        <img class="logo" src="../imagenes/logo.webp" alt="logo">
+        <div class="introAnimada">
            <h1>BIENVENIDOS AL LOBBY</h1>
            <p>Para los amantes de los videojuegos</p>
         </div>
@@ -37,17 +35,17 @@
         <!-- USO DE NAVBAR DE BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">El Lobby</a>
+            <a class="navbar-brand" href="../index.html">El Lobby</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.html" >Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/html/analisis.html">Analisis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/html/servicios.html">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/html/galeria.html">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/html/contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/analisis.html">Analisis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/contacto.html">Contacto</a></li>
                </ul>
            </div>
           </div>
@@ -61,16 +59,18 @@
             <p>Tenemos informacion sobre las siguientes compañias:</p>
             <!-- USO DEL GRID/FLEXBOX -->
             <ul class="compañiasGrid">
-                <li><img src="/imagenes/playstationlogo.jpg" alt=""> PlayStation</li>
-                <li><img src="/imagenes/xboxlogo.png" alt=""> Xbox</li>
-                <li><img src="/imagenes/nintendologo.webp" alt=""> Nintendo</li>
-                <li><img src="/imagenes/steamlogo.webp" alt=""> Steam</li>
+                <li><img src="./imagenes/playstationlogo.jpg" alt=""> PlayStation</li>
+                <li><img src="./imagenes/xboxlogo.png" alt=""> Xbox</li>
+                <li><img src="./imagenes/nintendologo.webp" alt=""> Nintendo</li>
+                <li><img src="./imagenes/steamlogo.webp" alt=""> Steam</li>
             </ul>
         </section>
         <section>
             
             <h2 class="fuenteTitulo">Últimas Noticias</h2>
+            
             <div class="noticiaMain">
+                <img src="./imagenes/noticia1.avif" alt="Imagen noticia 1" class="imgNoticia">
                 <h3 class="fuenteTitulo">🎮 EA se despide del rally virtual</h3>
                 <p>Electronic Arts ha anunciado el fin de su colaboración con el Campeonato Mundial de Rally (WRC), lo
                     que implica que Codemasters dejará de desarrollar nuevos títulos de rally. Esta decisión marca el
@@ -79,6 +79,7 @@
                     target="_blank">Leer más</a>
             </div>
             <div class="noticiaMain">
+                <img src="./imagenes/noticia2.jpeg" alt="Imagen noticia 2" class="imgNoticia">
                 <h3 class="fuenteTitulo">🧠 Jugar con la mente ya es una realidad</h3>
                 <p>Un joven chino de 19 años ha logrado jugar a 'Black Myth: Wukong' utilizando únicamente su actividad
                     cerebral, gracias al dispositivo Beinao-1 desarrollado por Brain Tiger Technology en colaboración
@@ -87,6 +88,7 @@
                     target="_blank">Leer más</a>
             </div>
             <div class="noticiaMain">
+                <img src="./imagenes/noticia3.jpg" alt="Imagen noticia 3" class="imgNoticia">
                 <h3 class="fuenteTitulo">🕹️ Oblivion Remastered ya disponible</h3>
                 <p>La remasterización de 'The Elder Scrolls IV: Oblivion' ha sido lanzada con mejoras gráficas
                     significativas gracias al motor Unreal Engine 5, incluyendo gráficos en 4K a 60 fps y animaciones
@@ -95,6 +97,7 @@
                     target="_blank">Leer más</a>
             </div>
             <div class="noticiaMain">
+                <img src="./imagenes/noticia4.jpg" alt="Imagen noticia 4" class="imgNoticia">
                 <h3 class="fuenteTitulo">🎬 Estreno de la película de Minecraft</h3>
                 <p>La adaptación cinematográfica de 'Minecraft' se estrenó el 3 de abril de 2025 en Hispanoamérica,
                     protagonizada por Jack Black y Jason Momoa. La película combina aventuras fantásticas con el
@@ -102,6 +105,7 @@
                 <a href="https://es.wikipedia.org/wiki/Una_pel%C3%ADcula_de_Minecraft" target="_blank">Leer más</a>
             </div>
             <div class="noticiaMain">
+                <img src="./imagenes/noticia5.webp" alt="Imagen noticia 5" class="imgNoticia">
                 <h3 class="fuenteTitulo">📈 ¿Seguirá PlayStation el aumento de precios de Xbox y Nintendo?</h3>
                 Xbox ha anunciado una serie de aumentos de precio para sus consolas y accesorios, lo que generó polémica
                 entre los fans.
@@ -111,8 +115,7 @@
                 Expertos aseguran que el creciente costo de fabricación y las tarifas derivadas de la Guerra Comercial
                 con EE.UU. podrían obligar a Sony a aumentar sus precios en las próximas semanas. Esto podría tener un
                 impacto directo en el precio de GTA 6, uno de los lanzamientos más esperados.</p>
-                <a href="https://www.google.com/search?q=aumento+precios+playstation+2025" target="_blank">Leer más
-                    sobre este tema</a>
+                <a href="https://www.google.com/search?q=aumento+precios+playstation+2025" target="_blank">Leer más</a>
             </div>
 
         </section>

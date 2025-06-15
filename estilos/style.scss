@@ -1,0 +1,17 @@
+
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/extends";
+@import "./base/base";
+
+@import "./layout/grid";
+@import "./layout/containers";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/noticias";
+@import "./components/analisis";
+@import "./components/servicios";
+@import "./components/contactos";
+@import "./components/galeria";
+

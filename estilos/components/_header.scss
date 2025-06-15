@@ -1,0 +1,42 @@
+.encabezadoPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("../imagenes/banner.avif") center/cover no-repeat;
+  color: $color-blanco;
+  padding: 20px;
+
+  img {
+    border: 5px solid $color-blanco;
+    width: 500px;
+    border-radius: 10px;
+  }
+}
+
+.textoEncabezado {
+  text-align: left;
+}
+
+.encabezadoUl {
+  background-color: $color-primario;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      background-color: $color-primario;
+      padding: 10px 15px;
+      margin: 5px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+    }
+  }
+}

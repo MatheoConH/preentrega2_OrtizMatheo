@@ -1,0 +1,101 @@
+.introServicios {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 700px;
+
+  h1 {
+    font-size: 2.2rem;
+    color: orange;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #ddd;
+  }
+}
+
+.gridServicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.cardServicio {
+  background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+  color: white;
+  border: 3px solid orange;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+
+  i {
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px orange;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.testimoniosServicios {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+  color: #eee;
+  padding: 0 20px;
+
+  h2 {
+    color: orange;
+    margin-bottom: 20px;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
+}
+
+.ctaFinal {
+  text-align: center;
+  margin: 40px auto;
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px orange;
+    transition: 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 15px orange;
+      transform: scale(1.05);
+    }
+  }
+}

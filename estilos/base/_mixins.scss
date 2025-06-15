@@ -1,0 +1,18 @@
+// Ejemplo de mixin para flexbox centrar
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin para transición suave
+@mixin transition($props...) {
+  transition: $props;
+}
+
+// Mixin para media query móvil
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}

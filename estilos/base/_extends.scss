@@ -1,0 +1,9 @@
+// Extends para cajas de noticias
+%noticia-box {
+  background-color: $color-fondo-noticia;
+  border: 2px solid $color-borde-noticia;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
