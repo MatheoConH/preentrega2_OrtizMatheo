@@ -36,6 +36,9 @@ p {
 }
 
 .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 80px;
   animation: slideFadeIn 1.5s ease-out forwards;
   opacity: 0;
 }
