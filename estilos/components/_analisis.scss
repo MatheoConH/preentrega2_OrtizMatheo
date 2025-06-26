@@ -39,46 +39,46 @@
     }
   }
 
-  .textoAnalisis {
-    flex: 1;
-    order: 1;
+.textoAnalisis {
+  flex: 1;
+  order: 1;
 
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-      font-family: $fuente-secundaria;
-    }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-family: $fuente-secundaria;
+  }
 
-    p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      font-family: $fuente-principal;
-    }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    font-family: $fuente-principal;
+  }
   }
 }
 
- .opinionesSeccion {
-   background-color: #1a1a1a;
-   color: white;
-   margin: 30px auto;
-   padding: 30px;
-   width: 90%;
-   max-width: 900px;
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+.opinionesSeccion {
+  background-color: #1a1a1a;
+  color: white;
+  margin: 30px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 
-   h2 {
-     text-align: center;
-     color: #f9a825;
-     margin-bottom: 20px;
-   }
+  h2 {
+    text-align: center;
+    color: #f9a825;
+    margin-bottom: 20px;
+  }
 
-   blockquote {
-     font-style: italic;
-     background-color: #2a2a2a;
-     padding: 15px;
-     border-left: 4px solid #f9a825;
-     margin-bottom: 15px;
-     border-radius: 6px;
-   }
- }
+  blockquote {
+    font-style: italic;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-left: 4px solid #f9a825;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+}
