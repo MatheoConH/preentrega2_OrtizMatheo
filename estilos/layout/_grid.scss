@@ -1,4 +1,3 @@
-// Ejemplo de grillas y contenedores
 
 .contenedor-analisis {
   display: grid;
@@ -8,11 +7,11 @@
 }
 
 .compañiasGrid {
-list-style: none;
-display: flex;
-flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: left;
-   gap: 20px;
+  gap: 20px;
   padding: 0;
 
   li {
@@ -26,17 +25,18 @@ flex-wrap: wrap;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 
     img {
-       width: 65px;
+      width: 65px;
        height: 50px;
       display: block;
-       margin: 0 auto 8px;
-       border-radius: 6px;
-     }
-   }
- }
+      margin: 0 auto 8px;
+      border-radius: 6px;
+    }
+  }
+}
+
 .videosGrid {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
   justify-items: center;
 }
