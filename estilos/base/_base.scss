@@ -1,12 +1,9 @@
-// ================= GENERALES =================
-
 body {
   background-color: $color-fondo;
   color: $color-texto;
   font-family: $fuente-principal;
   margin: 0;
   padding: 0;
-  font-size: 1.1rem;
 }
 
 a {
@@ -21,30 +18,26 @@ a {
   }
 }
 
-h1, h2 {
-  text-align: center;
-}
-
-p {
-  text-align: left;
-}
-
-.fuenteTitulo {
-  color: white;
-  font-size: 25px;
-  font-family: $fuente-secundaria;
-}
+h1, h2 { text-align: center; }
+p { text-align: left; }
 
 .logo {
-  display: block;
-  margin: 0 auto;
-  max-width: 80px;
+  width: 100px;
+  border-radius: 10px;
   animation: slideFadeIn 1.5s ease-out forwards;
   opacity: 0;
 }
 
+h1, h2 { text-align: center; }
+ p { text-align: left; }
 
-@keyframes slideFadeIn {
+ .fuenteTitulo {
+    color: white;
+    font-size: 25px;
+    font-family: $fuente-secundaria;
+ }
+
+ @keyframes slideFadeIn {
   0% {
     opacity: 0;
     transform: translateY(30px);
@@ -57,5 +50,6 @@ p {
 
 .introAnimada {
   animation: slideFadeIn 1.2s ease-out forwards;
-  opacity: 0;
+  opacity: 0; 
 }
+
