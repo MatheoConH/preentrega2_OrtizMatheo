@@ -14,7 +14,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 1.1rem;
 }
 
 a {
@@ -36,15 +35,25 @@ p {
   text-align: left;
 }
 
+.logo {
+  width: 100px;
+  border-radius: 10px;
+  animation: slideFadeIn 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
 .fuenteTitulo {
   color: white;
   font-size: 25px;
   font-family: "Nunito", sans-serif;
-}
-
-.logo {
-  animation: slideFadeIn 1.5s ease-out forwards;
-  opacity: 0;
 }
 
 @keyframes slideFadeIn {
@@ -162,6 +171,69 @@ p {
   border: none;
 }
 
+@media (max-width: 768px) {
+  .encabezadoPrincipal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .encabezadoPrincipal img {
+    width: 90px;
+  }
+  .encabezadoUl ul li {
+    display: block;
+    margin: 8px auto;
+  }
+  .imagenesMain img {
+    width: 90%;
+  }
+  .galeria-imagenes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .analisisItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  .analisisItem .imgAnalisis {
+    width: 100%;
+  }
+  .videosGrid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+  }
+  .encabezadoPrincipal img {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .logo,
+  .encabezadoPrincipal img {
+    width: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .galeria-imagenes {
+    grid-template-columns: 1fr;
+  }
+  .tituloPagina {
+    font-size: 1.4rem;
+  }
+  .formularioContacto {
+    padding: 15px;
+  }
+  .contenidoPrincipal {
+    padding: 15px;
+  }
+}
 .encabezadoPrincipal {
   display: flex;
   align-items: center;
@@ -490,6 +562,23 @@ button:hover {
 .galeria-imagenes img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #f9a825;
+}
+
+.videosMain {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.6666666667%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.videosMain iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
