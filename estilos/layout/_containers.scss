@@ -29,7 +29,7 @@
   margin-top: 20px;
 
   img {
-    width: 250px; // tamaño fijo para todas
+    width: 250px; 
     height: auto;
     border: 4px solid $color-primario;
     border-radius: 10px;
@@ -39,7 +39,7 @@
 
 @media (max-width: 768px) {
   .imagenesMain img {
-    width: 90vw; // en móvil ocupa casi todo ancho
+    width: 90vw; 
   }
 }
 
@@ -55,8 +55,8 @@ iframe {
  position: absolute;
   top: 0;
   left: 0;
-   width: 100%;
-    height: 100%;
-    border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
   }
- }
+}
